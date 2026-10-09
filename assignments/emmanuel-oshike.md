@@ -6,10 +6,10 @@
 Check off each challenge as you complete the write-up and merge it into the main branch.
 
 ## 1-Star Challenges
-- [ ] [Zero Stars](../categories/improper-input-validation/zero-stars.md)
-- [ ] [Privacy Policy](../categories/miscellaneous/privacy-policy.md)
-- [ ] [Score Board](../categories/score-board/score-board.md)
-- [ ] [Error Handling](../categories/security-misconfiguration/error-handling.md)
+- [x] [Zero Stars](../categories/improper-input-validation/zero-stars.md)
+- [x] [Privacy Policy](../categories/miscellaneous/privacy-policy.md)
+- [x] [Score Board](../categories/score-board/score-board.md)
+- [x] [Error Handling](../categories/security-misconfiguration/error-handling.md)
 
 ## 2-Star Challenges
 - [ ] [Chatbot Prompt Injection](../categories/injection/chatbot-prompt-injection.md)
