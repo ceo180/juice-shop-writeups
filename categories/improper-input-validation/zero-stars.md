@@ -49,11 +49,13 @@ HTTP/1.1 201 Created
 Content-Type: application/json
 
 {"status":"success","data":{"id":15,"comment":"I think I like this.","rating":0}}
+```
+`![Screenshot of successful exploitation](../../assets/images/zero-stars-success.png)`
 
-##Root Cause & Remediation
-Why did this happen?
+## Root Cause & Remediation
+**Why did this happen?**
 The backend API explicitly trusts the data provided by the client without enforcing its own boundary checks. While the frontend Angular code restricts the minimum value to 1, the backend Node.js route does not validate if the rating integer falls within the expected 1-5 range before inserting it into the database.
 
-How to fix it:
+**How to fix it:**
 * Implement strict server-side input validation on the /api/Feedbacks/ endpoint.
 * Reject any POST request where the rating attribute is not an integer between 1 and 5.
