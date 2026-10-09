@@ -50,7 +50,7 @@ Content-Type: application/json
 
 {"status":"success","data":{"id":15,"comment":"I think I like this.","rating":0}}
 ```
-`![Screenshot of successful exploitation](../../assets/images/zero-stars-success.png)`
+![Screenshot of successful exploitation](../../assets/images/zero-stars-success.png)
 
 ## Root Cause & Remediation
 **Why did this happen?**
